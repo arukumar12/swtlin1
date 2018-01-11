@@ -1,12 +1,14 @@
-#include<stdio.h>
-#include<conio.h>
-void main()
-{
+
+#include <stdio.h>
+
+int main(void) {
 int i,n;
-printf("enter a num");
+printf("enter n.o");
 scanf("%d",&n);
 for(i=0;i<=n;i++)
 {
-printf("hello");
+printf("hello\n");
 }
+
+	return 0;
 }
